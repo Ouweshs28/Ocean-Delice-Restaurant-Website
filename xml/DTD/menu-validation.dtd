@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<!--- The root node menu has sub sections like appertizers and so on -->
+<!ELEMENT menu (Appetizers|Starters|MainCourse|KidsMeal|Beverages|Desserts)*>
+
+<!--- each menu section contains one or items -->
+<!ELEMENT Appetizers (item)*>
+
+<!--- each menu section contains one or items -->
+<!ELEMENT Starters (item)*>
+
+<!--- each menu section contains one or items -->
+<!ELEMENT MainCourse (item)*>
+
+<!--- each menu section contains one or items -->
+<!ELEMENT KidsMeal (item)*>
+
+<!--- each menu section contains one or items -->
+<!ELEMENT Beverages (item)*>
+
+<!--- each menu section contains one or items -->
+<!ELEMENT Desserts (item)*>
+
+<!--- each item contain the follow details-->
+<!ELEMENT item (title|description|options|price)*>
+
+<!--- userinput -->
+<!ELEMENT title (#PCDATA)>
+
+<!--- userinput -->
+<!ELEMENT description (#PCDATA)>
+
+<!--- userinput -->
+<!ELEMENT options (#PCDATA)>
+
+<!--- userinput -->
+<!ELEMENT price (#PCDATA)>
+
+<!--- userinput -->
+<!ELEMENT summary (#PCDATA)>
+
+

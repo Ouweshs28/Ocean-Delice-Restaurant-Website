@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="XSL/menu-style.xsl"?>
+<!DOCTYPE menu SYSTEM "DTD/menu-validation.dtd">
+<menu>
+    <Appetizers>
+        <item>
+            <title>Garlic Toast with shrimps</title>
+            <description>with butter and served with hot chutney</description>
+            <options>Sweet chili sauce,Mozzarella,pepper</options>
+            <price>RS 300</price>
+        </item>
+
+        <item>
+            <title>Special Calamari Fries</title>
+            <description>served with our sweet and spicy chili sauce.</description>
+            <options>Cheese,Mozzarella,pepper</options>
+            <price>RS 350</price>
+
+        </item>
+
+        <item>
+            <title>Fried ginger fish</title>
+            <description>perfect coating.</description>
+            <options>Toast,Sweet chili</options>
+            <price>RS 350</price>
+        </item>
+
+        <item>
+            <title>Prawn sautee</title>
+            <description>Mushrooms,topped with cheese</description>
+            <options>Extra cheese,Sweet chili</options>
+            <price>RS 350</price>
+        </item>
+
+        <item>
+            <title>Baby Octopus with Onion Crystals</title>
+            <description>Our special octopus marinade and our homemade sauce sets our onion petals ahead of the
+                competition
+            </description>
+            <options>Sweet chili,toast</options>
+            <price>RS 400</price>
+        </item>
+
+        <item>
+            <title>Mixed Seafood Fritters</title>
+            <description>Sweet and mild mix of conch mixed in a savory batter then fried to perfection.</description>
+            <options>Sweet chili,toast</options>
+            <price>RS 400</price>
+        </item>
+
+        <item>
+            <title>Frog Legs</title>
+            <description>A taste similar to chicken but more tender.</description>
+            <options>Sweet chili,toast,hot soup</options>
+            <price>RS 400</price>
+        </item>
+
+        <item>
+            <title>Mozzarella Crab Nuggets</title>
+            <description>hot Mozzarella cheese, deep fried, encased in a crunchy breading.</description>
+            <options>Extra chili,Extra cheese</options>
+            <price>RS 250</price>
+        </item>
+
+        <item>
+            <title>Special prawn Chips</title>
+            <description>delicious prawn coated with special mauritian sauce</description>
+            <options>chili sauce ,cheese, mild tomato sauce, hot tomato sauce</options>
+            <price>RS 250</price>
+        </item>
+
+
+        <item>
+            <title>Chef’s choice</title>
+            <description>This recipe will have you puckering your lips in no time!</description>
+            <options>No options</options>
+            <price>RS 400</price>
+        </item>
+    </Appetizers>
+
+    <Starters>
+        <item>
+            <title>Crab soup</title>
+            <description>Three whole crabs loaded with crab meat. Served with Remoulade sauce.</description>
+            <options>chili sauce , hot pepper</options>
+            <price>RS 400</price>
+        </item>
+
+        <item>
+            <title>Algae Salad</title>
+            <description>Fresh sea food salad topped with prawns and sweet pepper</description>
+            <options>Cheese, hot chili sauce</options>
+            <price>RS 375</price>
+        </item>
+
+        <item>
+            <title>Grilled Shrimp with vegetables soup</title>
+            <description>delicate sea food soup with a special chef's choice topping</description>
+            <options>hot chili sauce</options>
+            <price>RS 490</price>
+        </item>
+
+        <item>
+            <title>Mixed Shrimps salad with mushrooms</title>
+            <description>A variety of shrimps mixed together topped with a nice coconut milk sauce</description>
+            <options>hot chili sauce,toast,tomato slice</options>
+            <price>RS 450</price>
+        </item>
+
+        <item>
+            <title>Special Salad with Raw Salmon</title>
+            <description>Try our special one and only salmon salad</description>
+            <options>hot chili sauce,toast,tomato slice</options>
+            <price>RS 490</price>
+        </item>
+
+        <item>
+            <title>Seafood bucket special</title>
+            <description>Mixed sea food just for you with sauce and chili</description>
+            <options>extra hot chili sauce,toast,tomato slice</options>
+            <price>RS 490 -- BOWL</price>
+            <price>RS 390 -- CUP</price>
+        </item>
+
+        <item>
+            <title>Chef's salad choice</title>
+            <description/>
+            <options>No options</options>
+            <price>RS 450</price>
+        </item>
+
+        <item>
+            <title>Chef's soup choice</title>
+            <description/>
+            <options>No options</options>
+            <price>RS 450</price>
+        </item>
+    </Starters>
+
+    <MainCourse>
+        <item>
+            <title>Sashimi meal</title>
+            <description>A large meal portion filled with sashimi slices , BBQ sauce and algae salads</description>
+            <options>hot chili sauce, rice, bread, toast</options>
+            <price>RS 1850</price>
+        </item>
+        <item>
+            <title>Mauritian octopus curry</title>
+            <description/>
+            <options>Rice , Noodles</options>
+            <price>RS 675</price>
+        </item>
+        <item>
+            <title>Fish curry Combo</title>
+            <description/>
+            <options>Rice , Bread , pasta noodles</options>
+            <price>RS 785</price>
+        </item>
+        <item>
+            <title>Fried rice and tilapia special</title>
+            <description/>
+            <options>No options</options>
+            <price>RS 550</price>
+        </item>
+        <item>
+            <title>Spicy Shrimp with tomato sauce</title>
+            <description>Served with ride and Mauritian fish curry</description>
+            <options>hot chili, toast</options>
+            <price>RS 750</price>
+        </item>
+        <item>
+            <title>Whole Octopus</title>
+            <description>A whole octopus meal served with baby octopuses salad and sae food sauce</description>
+            <options>No options</options>
+            <price>RS 875</price>
+        </item>
+        <item>
+            <title>Fillet with chef’s special</title>
+            <description>Salmon filet with lemon marinade and ginger</description>
+            <options>No options</options>
+            <price>RS 850</price>
+        </item>
+        <item>
+            <title>Oysters with corn</title>
+            <description>Tasty corn rice and oyster , topped with hot sauce</description>
+            <options>No options</options>
+            <price>RS 750</price>
+        </item>
+        <item>
+            <title>BBQ bucket</title>
+            <description/>
+            <options>No options</options>
+            <price>RS 1175</price>
+        </item>
+        <item>
+            <title>Grilled Mauritian special Sandwich</title>
+            <description>served with oyster and prawns</description>
+            <options>Hot chili , Extra cheese, Mozzarella</options>
+            <price>RS 475</price>
+        </item>
+        <item>
+            <title>Ocean Burger (NEW)</title>
+            <description>Special Mauritian taste burger that will melt your tongue, Served with freshly cooked sea foods
+                and special marinade, sweet chili and tomato
+            </description>
+            <options>Mozzarella, cheese, extra chili sauce</options>
+            <price>RS 550</price>
+        </item>
+    </MainCourse>
+
+    <KidsMeal>
+        <item>
+            <title>Bite Size Shrimp</title>
+            <description>served with tomato and salad topping for freshness</description>
+            <options>Sweet chili sauce, hot pepper</options>
+            <price>RS 300</price>
+        </item>
+        <item>
+            <title>Fish Fillet</title>
+            <description>with butter and ginger</description>
+            <options>Sweet chili sauce,pepper</options>
+            <price>RS 300</price>
+        </item>
+        <item>
+            <title>Fish Strips</title>
+            <description>let your kid enjoy the most tasty strips ever, served with oyster sautee and fish sauce
+            </description>
+            <options>Mayonnaise, tomato sauce, sweet chili sauce</options>
+            <price>RS 300</price>
+        </item>
+        <item>
+            <title>Ocean taste Mac and Cheese</title>
+            <description>try our delicious mac and cheese special chef's recipe</description>
+            <options>Sweet chili sauce,Mozzarella,Extra cheese</options>
+            <price>RS 300</price>
+        </item>
+        <item>
+            <title>Choose Any Two
+                Crab Cakes, Clam Strips, Scallops, or Chicken Strips (Substitutions available for an additional charge).
+            </title>
+            <description>served with hot chutney</description>
+            <options>Sweet chili sauce,Mozzarella,Extra cheese</options>
+            <price>RS 300</price>
+        </item>
+        <item>
+            <title>Sea food burger meal</title>
+            <description>5 layer burger with special sauce and algae marinade</description>
+            <options>Extra cheese , Mozzarella, chili</options>
+            <price>RS 300</price>
+        </item>
+    </KidsMeal>
+
+    <Beverages>
+        <item>
+            <title>Coca cola products</title>
+            <description/>
+            <options>Coke, Diet Coke and Sprite.</options>
+            <price>RS 110</price>
+        </item>
+        <item>
+            <title>Green Tea</title>
+            <description>freshly brewed</description>
+            <options>hot, cold</options>
+            <price>RS 125</price>
+        </item>
+        <item>
+            <title>Coffee</title>
+            <description>special caramel coffee</description>
+            <options>cold, iced, hot</options>
+            <price>RS 110</price>
+        </item>
+        <item>
+            <title>Mixed Tropical juice (NEW)</title>
+            <description/>
+            <options>No options</options>
+            <price>RS 120</price>
+        </item>
+        <item>
+            <title>Mojito vodka</title>
+            <description>iced mojito with lemon slice</description>
+            <options>with alcohol, alcohol free</options>
+            <price>RS 175</price>
+        </item>
+        <item>
+            <title>Wine</title>
+            <description/>
+            <options>glass,bottle</options>
+            <price>RS 300</price>
+        </item>
+        <item>
+            <title>Tropical lemon juice</title>
+            <description>Special chef's taste</description>
+            <options>Coke, Diet Coke and Sprite.</options>
+            <price>RS 155</price>
+        </item>
+        <item>
+            <title>Beer</title>
+            <description/>
+            <options>Domestics, imports</options>
+            <price>RS 120</price>
+        </item>
+        <item>
+            <title>Classic fruit juice</title>
+            <description>freshly made.Genuine taste</description>
+            <options>Lemon, peach, apple, pineapple, grapes,cherry, blueberry</options>
+            <price>RS 150</price>
+        </item>
+        <item>
+            <title>Fruity Party Punch</title>
+            <description>served with fruit toppings and ice</description>
+            <options>with alcohol, alcohol free</options>
+            <price>RS 300</price>
+        </item>
+        <item>
+            <title>Orange juice with fruit crumble</title>
+            <description>served with orange toppings and ice</description>
+            <options>with alcohol, alcohol free</options>
+            <price>RS 120</price>
+        </item>
+    </Beverages>
+    <Desserts>
+        <item>
+            <title>Caramel Delice</title>
+            <description>with cherry and fruit sauce</description>
+            <options>hot,cold</options>
+            <price>RS 330</price>
+        </item>
+        <item>
+            <title>Chef’s choice</title>
+            <description>Discover what our chef's fruity mystery</description>
+            <options>hot,cold</options>
+            <price>RS 350</price>
+        </item>
+        <item>
+            <title>Sweet banana and cherry mousse</title>
+            <description/>
+            <options>No options</options>
+            <price>RS 350</price>
+        </item>
+        <item>
+            <title>Fruity mix with coconut milk</title>
+            <description>A large variety of freshly cut tropical fruits</description>
+            <options>No options</options>
+            <price>RS 400</price>
+        </item>
+        <item>
+            <title>Cranberry jelly</title>
+            <description>homemade,with fresh cherry</description>
+            <options>No options</options>
+            <price>RS 345</price>
+        </item>
+    </Desserts>
+</menu>

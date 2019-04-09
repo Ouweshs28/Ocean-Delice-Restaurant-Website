@@ -1,0 +1,306 @@
+/* Main Styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000080;
+    color: #ffffff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Image Properties */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin: 0;
+    padding: 1em 0; /*1 em on top, 0 on left and right */
+}
+
+/* Paragraphs */
+p {
+    margin: 0;
+    padding: 1em 0; /*1 em on top, 0 on left and right */
+}
+
+/* Table window resizing fix*/
+table {
+    width: 100%
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #000080;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+
+.btn:hover {
+    background: #eaeaea;
+    color: #000080;
+}
+
+/* Header Show */
+#show {
+    min-height: 450px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#show .bg-img {
+    position: absolute;
+    background: #000080 url('../images/show.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#show h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+
+}
+
+#show .warp-content,
+#section-one .warp-content {
+    padding: 0 1.5em;
+
+}
+
+/* SECTION-ONE */
+
+#section-one {
+    background: #eaeaea;
+    color: #000080;
+    padding-bottom: 2em;
+}
+
+/* SECTION-TWO */
+
+#section-two {
+    padding: 2em 1em 1em;
+}
+
+#section-two ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-two li {
+    margin-bottom: 1em;
+    background: #ffffff;
+    color: #000080;
+}
+
+/* CARDS */
+
+.card-content {
+    padding: 1.5em;
+}
+
+/* SECTION-THREE */
+
+#section-three {
+    background: #ffffff;
+    color: #000080;
+    padding: 2em;
+}
+
+/* SECTION-FOUR (BOX) */
+
+#section-four .box {
+    padding: 2em;
+    color: #ffffff;
+}
+
+#section-four .box:first-child {
+    background: #2690d4;
+}
+
+#section-four .box:nth-child(2) {
+    background: #000080;
+    color: #ffffff;
+}
+
+.about-para {
+    padding-block-start: 0.5em;
+}
+
+/* Footer */
+
+#main-footer {
+    padding: 2em;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Fix Scaling */
+
+@media (min-width: 700px) {
+    .grid {
+        display: grid;
+        /*spliting into four equal fractions */
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+        /* making grids 2 and 3 larger to widen the text */
+    }
+
+    .wrap-content,
+    #section-two ul {
+        grid-column: 2/4;
+    }
+
+    .box, #main-footer div {
+        grid-column: span 2;
+    }
+
+    #section-two ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-two li {
+        width: 31%;
+    }
+}
+
+.socialsize {
+    width: auto;
+    display: inline;
+    padding-right: 10px;
+}
+
+/* TABLE */
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #999;
+    margin: 0px auto;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 13px 20px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #999;
+    color: #444;
+    background-color: #F7FDFA;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 13px 20px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #999;
+    color: #fff;
+    background-color: #26ADE4;
+}
+
+.tg .td-hol {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif !important;;
+    background-color: #ffffff;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .th-main {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: "Arial Black", Gadget, sans-serif !important;;
+    background-color: #000080;
+    color: #000000;
+    border-color: #000080;
+    text-align: center
+}
+
+.tg .td-time {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;;
+    background-color: #ffffff;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .th-days {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;;
+    background-color: #ffffff;
+    border-color: inherit;
+    text-align: center
+}
+
+.tg .th-time {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;;
+    background-color: #ffffff;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .td-day {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;;
+    background-color: #ffffff;
+    border-color: inherit;
+    text-align: center
+}
+
+.tg .td-time {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: Impact, Charcoal, sans-serif !important;;
+    background-color: #ffffff;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+@media screen and (max-width: 767px) {
+    .tg {
+        width: auto !important;
+    }
+
+    .tg col {
+        width: auto !important;
+    }
+
+    .tg-wrap {
+        overflow-x: auto;
+        margin: auto 0px;
+    }
+}
